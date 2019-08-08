@@ -5,6 +5,7 @@
   background-color:sandybrown;
   padding:40px 20px;
   font-style:italic;
+  color:rgb(88, 88, 236);
   
 }
 #welcome{
@@ -23,4 +24,16 @@
   text-align:center;
   padding-top:50px;
   background-color: sandybrown;
+  padding-bottom:50px;
+  color:rgb(88, 88, 236);
+}
+.img{
+  padding-top:20px;
+}
+#order-list{
+  background-color:grey;
+  padding-top:30px;
+  padding-bottom:30px;
+  padding-right:30px;
+  padding-left:30px;
 }
