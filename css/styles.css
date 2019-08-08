@@ -8,6 +8,9 @@
   color:rgb(88, 88, 236);
   
 }
+#nav>.sidenav>a{
+  margin-left:30px;
+}
 #welcome{
   background-image: url("../images/p4.jpeg");
   background-repeat:no-repeat;
@@ -36,6 +39,7 @@
   padding-bottom:30px;
   padding-right:30px;
   padding-left:30px;
+  color:#fff;
 }
 #order{
   text-align:center;
