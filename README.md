@@ -11,7 +11,7 @@ This a website for Abuelaz corner pizza restaurant. On this website you can:
 * You can make as many pizza orders as you want up to a maximum of 5.
 
 ## Author
-This website was made by Bey Faith, you can get in touch at fryumugabe@gmail.com and you can check it out online here :
+This website was made by Bey Faith, you can get in touch at fryumugabe@gmail.com and you can check it out online here : https://beyfaith.github.io/abuelaz-corner/
 
 ## Bugs :
  No bugs.
