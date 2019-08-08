@@ -1,6 +1,6 @@
 var sizes= ["small", "medium", "large"]
 $(document).ready(function(){
-  var amount = 0;
+  var Amount = 0;
   $("#order").click(function(){
     var checkVal = $("input[name=Yes]:checked").val();
     if(checkVal === "yes") {
@@ -10,15 +10,15 @@ $(document).ready(function(){
     }
   })
   $("#order").click(function(event){
-    var size = parseFloat(document.getElementById("sort").value);
-    var crust = parseFloat(document.getElementById("crusty").value);
-    var topping = parseFloat(document.getElementById("topping").value);
-    var quantity = parseFloat(document.getElementById("num").value);
-    var total = ((size + crust + topping) * quantity + Amount);
+    var Size = parseFloat(document.getElementById("sort").value);
+    var Crust = parseFloat(document.getElementById("crusty").value);
+    var Topping = parseFloat(document.getElementById("toppings").value);
+    var Quantity = parseFloat(document.getElementById("num").value);
+    var Total = ((Size + Crust + Topping) * Quantity + Amount);
 
-    document.getElementById("getsize").innerHTML = size;
-    document.getElementById("getcrust").innerHTML = crust;
-    document.getElementById("gettopping").innerHTML = topping;
+    document.getElementById("getsize").innerHTML = Size;
+    document.getElementById("getcrust").innerHTML = Crust;
+    document.getElementById("gettopping").innerHTML = Topping;
     document.getElementById("sum").innerHTML = total;
     $(".the-order").show();
     event.preventDefault();
